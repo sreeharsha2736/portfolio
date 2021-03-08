@@ -1,0 +1,17 @@
+#header {
+  background-color: rgb(66, 65, 65);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.first {
+  background-image: url("./images/dp.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.typed-text {
+  color: rgb(216, 216, 118);
+  font-size: 28px;
+  padding-top: 100px;
+}
