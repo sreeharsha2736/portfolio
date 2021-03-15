@@ -5,11 +5,7 @@ const TypedText = () => {
     <>
       <div className="typed-text ml-auto text-center">
         <Typed
-          strings={[
-            "Welcome to My Portfolio",
-            "Let you know about me",
-            "welcome",
-          ]}
+          strings={["Welcome to My Portfolio", "Let me Introduce to you"]}
           typeSpeed={40}
           backSpeed={50}
           loop

@@ -1,17 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 #header {
-  background-color: rgb(66, 65, 65);
+  position: fixed;
 }
 .navbar {
-  display: flex;
-  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font: 20px Raleway;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+/* Top and Bottom borders go out */
+li:before,
+li:after {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+li:before {
+  top: 0px;
+  transform: translateY(10px);
+}
+
+li:after {
+  bottom: 0px;
+  transform: translateY(-10px);
+}
+
+li:hover:before,
+li:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
 }
 .first {
-  background-image: url("./images/dp.jpeg");
+  background-image: url("./images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .typed-text {
-  color: rgb(216, 216, 118);
-  font-size: 28px;
-  padding-top: 100px;
+  color: rgba(220, 235, 12, 0.541);
+  font-family: "RocknRoll One", sans-serif;
+
+  font-size: 48px;
+  padding: 100px;
+}
+#Topheader {
+  font-size: 48px;
+
+  font-family: "RocknRoll One", sans-serif;
+  color: rgba(220, 235, 12, 0.541);
 }

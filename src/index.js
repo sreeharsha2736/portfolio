@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Navbar from "./components.js/Navbar";
+import Topheader from "./components.js/Topheader";
 import TypedText from "./components.js/TypedText";
 import "./main.css";
 class App extends React.Component {
@@ -10,6 +11,7 @@ class App extends React.Component {
         <Navbar />
         <div className="first">
           <TypedText />
+          <Topheader />
         </div>
       </div>
     );
