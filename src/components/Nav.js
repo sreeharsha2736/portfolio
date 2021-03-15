@@ -4,7 +4,7 @@ import "../main.css";
 const Nav = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-md ">
+      <nav className="navbar navbar-expand-md p-4">
         <button
           className="navbar-toggler"
           type="button"
@@ -16,35 +16,62 @@ const Nav = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse " id="navbarNav">
-          <ul className="navbar-nav mx-auto">
+
+        <div className="collapse navbar-collapse mx-auto" id="navbarNav">
+          <ul className="navbar-nav ">
             <li className="pl-5 active">
-              <a href="#" style={{ textDecoration: "none", color: "#f9004d" }}>
+              <a
+                href="#"
+                className="nav-link"
+                id="home"
+                style={{ textDecoration: "none" }}
+              >
                 Home
               </a>
             </li>
             <li className="pl-5">
-              <a href="#" style={{ textDecoration: "none", color: "#f9004d" }}>
+              <a
+                href="#"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+              >
                 About
               </a>
             </li>
+
             <li className="pl-5">
-              <a href="#" style={{ textDecoration: "none", color: "#f9004d" }}>
+              <a
+                href="#"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+              >
                 Education
               </a>
             </li>
             <li className="pl-5">
-              <a href="#" style={{ textDecoration: "none", color: "#f9004d" }}>
+              <a
+                href="#"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+              >
                 Skills
               </a>
             </li>
             <li className="pl-5">
-              <a href="#" style={{ textDecoration: "none", color: "#f9004d" }}>
+              <a
+                href="#"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+              >
                 Projects
               </a>
             </li>
             <li className="pl-5">
-              <a href="#" style={{ textDecoration: "none", color: "#f9004d" }}>
+              <a
+                href="#"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+              >
                 Contact
               </a>
             </li>

@@ -1,18 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Navbar from "./components.js/Navbar";
-import Topheader from "./components.js/Topheader";
-import TypedText from "./components.js/TypedText";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import Topheader from "./components/Topheader";
+import TypedText from "./components/TypedText";
+import Work from "./components/Work";
 import "./main.css";
 class App extends React.Component {
   render() {
     return (
       <div>
         <Navbar />
-        <div className="first">
+        <div className="homepage">
           <TypedText />
           <Topheader />
         </div>
+        <About />
+        <Work />
       </div>
     );
   }
