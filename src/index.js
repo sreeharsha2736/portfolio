@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Topheader from "./components/Topheader";
 import TypedText from "./components/TypedText";
@@ -17,6 +18,7 @@ class App extends React.Component {
         </div>
         <About />
         <Work />
+        <Contact />
       </div>
     );
   }
