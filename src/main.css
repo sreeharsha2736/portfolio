@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+  background-color: rgb(17, 14, 14);
+}
+#header {
+  position: fixed;
+}
+.nav-link{
+  color:rgb(255, 255, 255);
+}
+.nav-link:hover{
+  color:rgb(219, 81, 81);
+  font-size:18px;
+  font-weight: bold;
+}
+.homepage {
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.typed-text {
+  color: rgba(220, 235, 12, 0.541);
+  font-family: "RocknRoll One", sans-serif;
+
+  font-size: 48px;
+  padding: 150px 100px 100px 100px;
+}
+#Topheader {
+  font-size: 48px;
+padding-bottom: 200px;
+  font-family: "RocknRoll One", sans-serif;
+  color: rgba(220, 235, 12, 0.541);
+}
+#php{
+  min-width:470px;
+  max-height: 300px;
+border-radius: 30px;
+}
+#mern{
+  max-width:470px;
+  min-height: 350px;
+  border-radius: 30px;
+
+}
+.about-heading{
+  font-size: 44px;
+  color: rgba(255, 255, 255);
+  font-family: 'Fredoka One', cursive;
+}  
+#tabs-content{
+  min-height: 400px;
+}
