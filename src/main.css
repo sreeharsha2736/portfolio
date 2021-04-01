@@ -1,17 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+body {
   background-color: rgb(17, 14, 14);
 }
 #header {
   position: fixed;
 }
-.nav-link{
-  color:rgb(255, 255, 255);
+#header1 {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(46, 42, 42, 0.603);
+  max-height: 80px;
 }
-.nav-link:hover{
-  color:rgb(219, 81, 81);
-  font-size:18px;
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+  color: rgb(219, 81, 81);
+  font-size: 18px;
   font-weight: bold;
 }
 .homepage {
@@ -28,30 +34,50 @@ body{
 }
 #Topheader {
   font-size: 48px;
-padding-bottom: 200px;
+  padding-bottom: 200px;
   font-family: "RocknRoll One", sans-serif;
   color: rgba(220, 235, 12, 0.541);
 }
-#php{
-  min-width:470px;
-  max-height: 300px;
-border-radius: 30px;
-}
-#mern{
-  max-width:470px;
-  min-height: 350px;
+#php {
+  max-width: 470px;
+  max-height: 250px;
   border-radius: 30px;
-
 }
-.about-heading{
+#mern {
+  max-width: 470px;
+  min-height: 270px;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 400px) {
+  #mern {
+    max-width: 330px;
+    max-height: 270px;
+    border-radius: 30px;
+  }
+  #php {
+    width: 330px !important;
+    max-height: 180px;
+    border-radius: 30px;
+  }
+}
+.about-heading {
   font-size: 44px;
   color: rgba(255, 255, 255);
-  font-family: 'Fredoka One', cursive;
-}  
-#tabs-content{
-  min-height: 400px;
+  font-family: "Fredoka One", cursive;
 }
-.contactInput{
-   background-color: rgb(17, 14, 14);
-  
+
+#tabs-content {
+  min-height: 500px;
+}
+.contactInput {
+  background-color: rgb(17, 14, 14);
+}
+ul {
+  list-style: none;
+}
+#tabheader1 {
+  color: rgba(225, 233, 121, 0.541);
+}
+#tab {
+  color: rgba(220, 235, 12, 0.541);
 }

@@ -3,6 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
+      <br /> <br /> <br /> <br />
       <div className="row pt-5">
         <h1 className="about-heading mx-auto">Contact me</h1>
       </div>{" "}
@@ -36,6 +37,8 @@ const Contact = () => {
       <div className="row mx-auto">
         <button className="btn mx-auto">SUBMIT</button>
       </div>
+      <br />
+      <br /> <br />
     </>
   );
 };

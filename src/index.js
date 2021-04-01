@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -11,7 +12,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Router>
+          <Switch>
+            <Route path="/" component={About}>
+              <Navbar />
+            </Route>
+          </Switch>
+        </Router>
+
         <div className="homepage">
           <TypedText />
           <Topheader />
